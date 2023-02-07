@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{    
+    background-image: url(img/18717112_v748-toon-111.jpg);
+    width: 100%;
+}
+
+/* Heading--- */
+h1 {
+    background-image: url(img/bg2.jpg);
+    border-radius: 300px 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-stretch: extra-expanded;
+    color: black;
+}
+
+/* Card css--- */
+.row {
+    cursor: pointer;
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-text {
+    font-size: 12px;
+}
+
+.card:hover {
+    box-shadow: 0 0 0 rgb(0, 0, 0, 1);
+    animation: pulse 1s;
+}
+
+/* Card Animatuion---- */
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(2.6);
+        box-shadow: 0 0 0 10px rgb(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgb(0, 0, 0, 0);
+    }
+}
+/* NATIONOL ANTHEM--- */
+#national {
+    background-image: linear-gradient(180deg, rgb(240, 79, 16), white, green);
+    margin: 8px;
+    text-align: center;
+    color: rgb(48, 47, 51);
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* FOOTER---- */
+footer {
+    background-image: linear-gradient(50deg, rgb(100, 95, 95), white, rgb(62, 78, 62));
+    padding: 2px;
+    text-align: center;
+    font-size: 18px;
+    font-stretch: expanded;
+    margin: -9px;
+    margin-top: -9px;
+    font-family: 'Kalam', cursive
+}
+footer h4 {
+    text-align: end;
+    padding-right: 10px;
+}
